@@ -18,7 +18,7 @@
 }
 
 .logo{
-    background-image: url("amazon\ \(1\).png");
+    background-image: url("amazonLogo.png");
     background-size : cover;
     height : 50px ;
     width : 100% ;
@@ -190,16 +190,17 @@ span{
 
 .shop-section{
     display : flex ;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #eb9aeb;
 }
 
 .box{
     height : 375px ;
-    width : 20% ;
-    border : 2px solid black ;
+    width : 22% ;
     background-color: white;
     padding: 20px 0px 15px;
+    margin-bottom: 20px ;
 }
 
 .box a{
@@ -245,7 +246,31 @@ span{
     margin-bottom: 1rem;
 }
 
-.grid-item p{
+.grid-box-items p{
     font-size: 0.75rem;
     margin-top: 0;
+}
+
+.grid-item-1{
+    width: 80%;
+}
+
+.grid-item-1 .item-image-1{
+    height : 115px ;
+    width : 100% ;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grid-item-2{
+    width: 25%;
+}
+
+.grid-item-2 .item-image-2{
+    height : 90px ;
+    width : 90px ;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
